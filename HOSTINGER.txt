@@ -1,0 +1,24 @@
+DiaFootCare website installation
+
+1. Extract the ZIP. Review the site and edit clinic-config.js.
+   bookingUrl: your public appointment scheduler URL
+   stripeUrl: your Stripe Payment Link for GBP
+   paystackUrl: your Paystack Payment Page for NGN
+   whatsappNumber: the consultant team's international number, digits only
+   Use public HTTPS links. Keep provider secrets in their dashboards.
+2. Upload the website files and assets/ to the document root of a Hostinger
+   staging domain or subdomain using File Manager. Open index.html over HTTPS.
+   This package uses ordinary static hosting and requires no Node.js server.
+3. Check a booking in the scheduler's test environment, verify a checkout in
+   each configured payment provider's test environment, and open the WhatsApp
+   chat. Confirm scheduling rules, prices, concession fees and practice details
+   before directing the production domain to the new site.
+4. Add approved privacy and regulatory pages before launch.
+
+The enquiry form opens an email draft using the patient's mail app. It passes
+only their name and contact information. A completed appointment is confirmed
+by your scheduler or your team. The checkout provider handles card details,
+receipts and payment status. The site does not reconcile payments to bookings.
+
+The hero photograph is an illustrative AI-generated image. The logo artwork
+comes from the current DiaFootCare website.

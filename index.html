@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Private podiatry in Rochester, Kent, diabetic foot care and professional training from DiaFootCare.">
+<title>DiaFootCare | Podiatry & Diabetic Foot Care</title>
+<link rel="icon" href="assets/logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+<script src="clinic-config.js" defer></script>
+<script src="site.js" defer></script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="head">
+<div class="wrap nav">
+<a href="#" class="brand" aria-label="DiaFootCare home"><img src="assets/brand.png" alt=""><span>Dia<span>Foot</span>Care<small>PRIORITISING FOOT HEALTH</small></span></a>
+<nav aria-label="Main navigation"><a href="#about">About</a><a href="#services">Services</a><a href="#rochester">UK Podiatry</a><a href="#academy">Training</a></nav>
+<a class="button primary" href="#appointment">Book an appointment</a>
+</div>
+</header>
+<main id="main">
+<section class="hero">
+<div class="wrap hero-grid">
+<div class="hero-copy">
+<p class="eyebrow"><span></span> ROCHESTER, KENT &amp; INTERNATIONAL</p>
+<h1>Expert care for<br>healthier feet<span>.</span></h1>
+<p class="intro">Private podiatry in Rochester, specialist diabetic foot care and practical training for healthcare teams.</p>
+<div class="actions"><a class="button primary" href="#appointment">Book an appointment</a><a class="button outline" href="#contact">Talk to our team</a></div>
+</div>
+<figure class="hero-photo"><img src="assets/consultation.jpg" alt="Illustration of a clinician talking with a patient in a consultation room"><figcaption>Private podiatry in Rochester, Kent</figcaption></figure>
+</div>
+</section>
+<div class="pathways"><div class="wrap pathways-grid">
+<a href="#rochester"><span class="step-icon" aria-hidden="true">✚</span><span><strong>For patients</strong><small>Find the right foot care</small></span></a>
+<a href="#academy"><span class="step-icon" aria-hidden="true">◎</span><span><strong>For clinicians</strong><small>Explore professional training</small></span></a>
+<a href="#payment"><span class="step-icon" aria-hidden="true">£</span><span><strong>Make a payment</strong><small>Find your clinic’s payment option</small></span></a>
+</div></div>
+<section id="services" class="section">
+<div class="wrap" id="rochester">
+<p class="eyebrow">PRIVATE PODIATRY · ROCHESTER</p>
+<div class="section-heading"><h2>Find the right foot care</h2><a class="button outline" href="#prices">View prices</a></div>
+<p class="intro">From routine nail care to diabetic foot assessments. If you’re unsure where to start, ask for an initial assessment.</p>
+<aside class="urgent"><strong>Urgent diabetic foot symptoms</strong><p>If you have diabetes and develop a new foot wound, signs of infection, or a hot or swollen foot, seek urgent help from your diabetic foot team, GP or NHS 111. Call 999 if severely unwell.</p></aside>
+<div class="services">
+<article><span aria-hidden="true">✚</span><h3>Initial assessment</h3><p>Discuss your concerns, have your feet assessed and agree on next steps.</p></article>
+<article><span aria-hidden="true">✚</span><h3>Diabetic foot assessment</h3><p>Review circulation, sensation and foot risk, with a prevention plan tailored to you.</p></article>
+<article><span aria-hidden="true">✚</span><h3>High-risk foot care</h3><p>Planned monitoring for neuropathy, poor circulation or a history of ulcers.</p></article>
+<article><span aria-hidden="true">✚</span><h3>Nail care</h3><p>Care for thickened, curved or difficult-to-cut toenails.</p></article>
+<article><span aria-hidden="true">✚</span><h3>Corn and callus treatment</h3><p>Skin care with advice on footwear and relieving pressure.</p></article>
+<article><span aria-hidden="true">✚</span><h3>Ingrown nails and nail surgery</h3><p>Assessment and discussion of procedure options, costs and aftercare.</p></article>
+<article><span aria-hidden="true">✚</span><h3>Biomechanical assessment</h3><p>Assessment of foot or ankle pain, walking patterns and footwear.</p></article>
+<article><span aria-hidden="true">✚</span><h3>Verruca care</h3><p>Assessment and discussion of suitable treatment options.</p></article>
+</div>
+<div id="prices" class="price-strip"><div><h3>Rochester consultation fees</h3><p>Ask the practice for a quote, including reduced fees for patients aged 65 and over.</p></div><a href="mailto:info@diafootcare.com?subject=Rochester%20podiatry%20fees" class="button outline">Ask for prices</a></div>
+</div>
+</section>
+<section class="section conversion" aria-label="Bookings and payments">
+<div class="wrap flow-grid">
+<div id="appointment" class="panel appointment">
+<p class="eyebrow">APPOINTMENTS</p><h2>Book a visit</h2>
+<p id="book-copy">Send your name and preferred contact details so our team can help arrange an appointment.</p>
+<a id="live-booking" class="button primary" hidden>Open online booking</a>
+<form id="enquiry" action="mailto:info@diafootcare.com" method="get">
+<label for="name">Full name</label><input id="name" name="name" required maxlength="100" autocomplete="name">
+<label for="contact-detail">Email or phone number</label><input id="contact-detail" name="contact" required maxlength="120">
+<small>Use this form for contact details only. Keep medical information and photos for your consultation.</small>
+<button class="button primary" type="submit">Open email enquiry</button>
+</form>
+<p id="booking-status" role="status"></p>
+</div>
+<div class="side-panels">
+<div id="payment" class="panel"><p class="eyebrow">PAYMENTS</p><h2>Pay for your visit</h2><p id="payment-copy">Contact the team with your booking reference to request a payment link.</p>
+<div class="actions"><a id="stripe" class="button primary" hidden>Pay in GBP</a><a id="paystack" class="button primary" hidden>Pay in NGN</a><a id="payment-fallback" class="button outline" href="mailto:info@diafootcare.com?subject=Appointment%20payment%20link">Request a payment link</a></div></div>
+<div id="contact" class="panel contact"><p class="eyebrow">CONTACT</p><h2>Talk to our team</h2><p id="contact-copy">Ask about appointments, fees or speaking with a consultant.</p>
+<a id="whatsapp" class="button primary" hidden>Chat on WhatsApp</a><a class="button outline" href="mailto:info@diafootcare.com">Email DiaFootCare</a></div>
+</div>
+</div>
+</section>
+<section id="about" class="section about"><div class="wrap split">
+<div><p class="eyebrow">ABOUT DIAFOOTCARE</p><h2>Preventing diabetic foot complications</h2></div>
+<div><p>DiaFootCare was founded by UK-trained podiatrist Arthur Okoye to improve access to specialist diabetic foot care. We support patients and healthcare teams across Africa, the United Kingdom and the Middle East.</p><p>Our clinical education focuses on metabolic, mechanical, pharmacological and vascular care.</p></div>
+</div></section>
+<section id="academy" class="section academy"><div class="wrap split">
+<div><p class="eyebrow">PROFESSIONAL TRAINING</p><h2>Build your team’s diabetic foot care skills</h2></div>
+<div><p>Explore short masterclasses, intensive programmes and customised training in foot assessment, wound care and service development.</p><a class="button outline" href="mailto:info@diafootcare.com?subject=Training%20enquiry">Enquire about training</a></div>
+</div></section>
+</main>
+<footer><div class="wrap foot"><a href="#" class="brand"><img src="assets/brand.png" alt=""><span>Dia<span>Foot</span>Care</span></a><a href="mailto:info@diafootcare.com">info@diafootcare.com</a><small>© DiaFootCare</small></div></footer>
+</body>
+</html>
